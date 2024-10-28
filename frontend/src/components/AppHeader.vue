@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col class="d-flex justify-start align-center">
-        <h1 class="text-grey-darken-2">Fabio Thomaz<spam class="pontoh1 pl-0 ml-0">.</spam>
+        <h1 style="color: #00a0b0;" class="">Fabio Thomaz<spam class="pontoh1 pl-0 ml-0">.</spam>
         </h1>
       </v-col>
       <v-col class="d-flex justify-center align-center">
@@ -14,7 +14,7 @@
         </ul>
       </v-col>
       <v-col class="d-flex justify-end align-center">
-        <v-btn variant="outlined" rounded size="small" color="green-darken-4">Contato</v-btn>
+        <v-btn variant="outlined" rounded size="small" color="#00a0b0">Contato</v-btn>
       </v-col>
     </v-row>
   </v-container>
