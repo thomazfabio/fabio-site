@@ -61,7 +61,7 @@
       </v-col>
       <v-col md="6" cols="12">
         <div class="right d-flex flex-column pa-2">
-          <v-card class="mb-6">
+          <v-card class="mb-6 card-apresent pt-5">
             <v-card-title class="d-flex justify-center align-center">
               <v-avatar size="200">
                 <v-img
@@ -78,8 +78,8 @@
     </v-row>
     <v-row>
       <v-col md="6" cols="12" class="d-flex justify-center align-center">
-        <div class="d-flex justify-center align-center flex-column mt-10">
-          <span>conheça alguns dos meus projetos</span>
+        <div class="d-flex justify-center align-center flex-column">
+          <span>Veja alguns de meus projetos</span>
           <v-btn class="mt-4" append-icon="mdi-rocket" elevation="15" color="#00a0b0">Projetos</v-btn>
         </div>
       </v-col>
@@ -111,6 +111,10 @@
 
 .right {
   width: 100%;
+}
+
+.card-apresent {
+  box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.3);
 }
 
 .node {
@@ -149,7 +153,7 @@
   background: white;
   margin: 0.5em 0.5em 0.5em 0.5em;
   border-radius: 30%;
-  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .rounded-badge span {
@@ -168,7 +172,7 @@
   height: 5.4em;
   border-radius: 30%;
   margin: 0.3em 0.3em 0.3em 0.3em;
-  box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.3);
 }
 
 .gradient-chip {
