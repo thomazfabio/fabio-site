@@ -19,7 +19,7 @@ body {
 .avatar img {
     width: 100%;  /* Ajuste o tamanho conforme necessário */
     height: 200px;
-    border-radius: 10%; /* Torna a imagem redonda */
+    border-radius: 25%; /* Torna a imagem redonda */
     border: 2px solid #4caf50; /* Borda verde para destaque */
     object-fit: cover; /* Garante que a imagem se encaixe corretamente */
 }
